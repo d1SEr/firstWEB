@@ -1,18 +1,19 @@
 .header_bg
 {
     width: 100vw;
-    height: 100px;
+    /*height: 8vh;*/
     background: #222226;
     position: fixed;
     top: 0px;
     left: 0px;
+    z-index: 1;
 }
 
 .logo
 {
     filter: invert(8%) sepia(6%) saturate(1134%) hue-rotate(201deg) brightness(99%) contrast(87%);
     width: 100px;
-    height: 100px;
+    /*height: 8vh;*/
 }
 
 a:link 
@@ -48,7 +49,7 @@ a:active
 
 .rest
 {
-    
+    height: 37.0vh;
 }
 
 .rest_h2
@@ -56,6 +57,12 @@ a:active
     text-align: center;
     color: #343A40;
     font-weight: bolder;
+}
+
+.text {
+    height: 70%;
+    top: 50%;
+    transform: translate(0%, 50%);
 }
 
 .rest_p
@@ -88,7 +95,7 @@ a:active
 
 .fit
 {
-
+    height: 37.0vh;
 }
 
 .fit_h2
@@ -130,7 +137,7 @@ a:active
 
 .pool
 {
-
+    height: 37.0vh;
 }
 
 .pool_h2
@@ -186,3 +193,15 @@ h1
 {
     text-align: center;
 }
+
+/* table {
+    position: absolute;
+    right: 50%;
+    transform: translate(50%, 0%);
+}
+
+@media only screen and (max-width: 800px) {
+    table {
+
+    }
+} */
