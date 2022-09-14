@@ -39,10 +39,11 @@ a:active
 {
     font-weight: bolder;
     background: #222226;
-    font-size: 20px;
+    /*font-size: 20px;*/
     float: right;
     margin-top: 70px;
     margin-right: 25px;
+    font-size: 3vh;
 }
 
 .rest
