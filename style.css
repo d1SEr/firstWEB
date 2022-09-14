@@ -1,6 +1,6 @@
 .header_bg
 {
-    width: 100%;
+    width: 100vw;
     height: 100px;
     background: #222226;
     position: fixed;
@@ -43,7 +43,7 @@ a:active
     float: right;
     margin-top: 70px;
     margin-right: 25px;
-    font-size: 3vh;
+    font-size: 1.5vh;
 }
 
 .rest
@@ -72,8 +72,18 @@ a:active
     vertical-align: middle;
     border-style: none;
     float: right;
-    width: 700px;
-    height: 400px;
+    width: 36.4vw;
+    height: 37.0vh;
+}
+
+@media only screen and (max-width: 800px) {
+    .rest_img
+    {
+        border-style: none;
+        float: right;
+        width: 95vw;
+        height: 37.0vh;
+    }
 }
 
 .fit
@@ -102,8 +112,20 @@ a:active
     vertical-align: middle;
     border-style: none;
     float: left;
-    width: 700px;
-    height: 400px;
+    width: 36.4vw;
+    height: 37.0vh;
+}
+
+@media only screen and (max-width: 800px) {
+    .fit_img
+    {
+        border-style: none;
+        float: left;
+        width: 95vw;
+        height: 37.0vh;
+        display: flex;
+        justify-content: center;
+    }
 }
 
 .pool
@@ -132,8 +154,20 @@ a:active
     vertical-align: middle;
     border-style: none;
     float: right;
-    width: 700px;
-    height: 400px;
+    width: 36.4vw;
+    height: 37.0vh;
+}
+
+@media only screen and (max-width: 800px) {
+    .pool_img
+    {
+        border-style: none;
+        float: right;
+        width: 95vw;
+        height: 37.0vh;
+        display: flex;
+        justify-content: center;
+    }
 }
 
 .td_img
